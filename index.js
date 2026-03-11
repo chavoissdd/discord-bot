@@ -113,5 +113,4 @@ client.on("channelDelete", channel => {
   }
 
 });
-
-client.login("MTQ4MTEwMDc3Nzc1MjYyNTMzMw.GOLn7I.Npup6TPs8t35d0v5QcHwBxpMbwped_FqMiwmZ4");
+client.login(process.env.TOKEN);
